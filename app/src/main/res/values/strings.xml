@@ -1,0 +1,79 @@
+<resources>
+
+
+    <string name="default_tittle">Title</string>
+    <string name="default_description">
+    If you can keep your head when all about you
+    Are losing theirs and blaming it on you,
+    If you can trust yourself when all men doubt you,
+    But make allowance for their doubting too;
+    If you can wait and not be tired by waiting,
+    Or being lied about, don’t deal in lies,
+    Or being hated, don’t give way to hating,
+    And yet don’t look too good, nor talk too wise:</string>
+
+    <string name="app_name">WorkMeOut</string>
+    <string name="domain">http://b1bf7dd3.ngrok.io</string>
+    <string name="title_home">Sport</string>
+    <string name="title_dashboard">Me</string>
+    <string name="title_notifications">Talk</string>
+    <string name="title_activity_login">Test</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="btn_save_stg">"Save"</string>
+
+    <string name="login_stg">" Username"</string>
+    <string name="password_stg">" Password"</string>
+    <string name="forgotPassword_stg">"Remind Password?"</string>
+    <string name="loginBtn_stg">"   Log in   "</string>
+    <string name="registerBtn_stg">Register me!</string>
+    <string name="remember_stg">Remember me</string>
+    <string name="realName_stg">" Name"</string>
+    <string name="passwordR_stg">" Retype Password"</string>
+    <string name="loginIcon_stg_dsc">Icono Entrada</string>
+    <string name="emailAdress_stg">" Email"</string>
+    <string name="telephone_stg">" Phone number</string>
+    <string name="age_stg">" Age"</string>
+    <string name="gender_stg">Gender</string>
+    <string name="male_stg">Male</string>
+    <string name="female_stg">Female</string>
+    <string name="sendBtn_stg">Send</string>
+    <string name="mailForgotMessage">We will send you an email with your login details</string>
+    <string-array name="android_versions">
+        <item>Sara</item>
+        <item>Clara</item>
+        <item>Agustin</item>
+    </string-array>
+
+    <string name="nombre_chat">Name</string>
+    <string name="email_chat">Correo Electrónico</string>
+    <string name="title_activity_exercise_detail">ExerciseDetail</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="search_ppl">Search People</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="chat_text">Chat-me-out!</string>
+
+    <!-- Push Notification -->
+    <string name="notification_channel_description">This is a sample notification channel.</string>
+
+    <!--intento de chat-->
+    <string name="email_login">email</string>
+
+</resources>

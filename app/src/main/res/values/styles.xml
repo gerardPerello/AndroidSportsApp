@@ -1,0 +1,59 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="actionBarSize">70dp</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:textColorHighlight">@color/lightGray</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <item name="android:datePickerDialogTheme" tools:targetApi="lollipop">@style/MyDatePickerDialogTheme</item>
+
+    </style>
+
+    <style name="MyDatePickerDialogTheme" parent="android:Theme.Material.Light.Dialog" tools:targetApi="lollipop">
+        <item name="android:colorAccent">@color/colorPrimary </item>
+    </style>
+
+    <style name="DefaultNumberPickerTheme">
+        <item name="colorControlNormal">#00FFFFFF</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="buttonDefault">
+        <item name="android:background">@drawable/button_round_default</item>
+        <item name="android:textColor">@color/btnText</item>
+        <item name="android:textSize">@dimen/btnText</item>
+        <item name="android:layout_marginBottom">@dimen/btnMarginBottom</item>
+        <item name="android:layout_marginLeft">@dimen/btnMarginLeft</item>
+        <item name="android:layout_marginRight">@dimen/btnMarginRight</item>
+    </style>
+
+    <style name="fabDefault">
+        <item name="android:backgroundTint">@color/colorPrimary</item>
+        <item name="android:layout_gravity">bottom|end</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="elevation">6dp</item>
+        <item name="android:src">@drawable/ic_add_white_24dp</item>
+    </style>
+
+    <style name="editTextDefault">
+        <item name="android:backgroundTint">@color/edtBG</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:ems">10</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+</resources>
